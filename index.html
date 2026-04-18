@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favourite Photos</title>
-
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
+        <a href="#home">
         <h1>My Favourite Photos</h1>
         <p>Here are some of my favourite photos that I have taken over the years.</p>  
+        </a>
         <nav>
             <ul>
                 <li><a href="#motivation">Motivation</a></li>
@@ -24,7 +26,7 @@
         <div>
             <section id="motivation">
             <h2>What motivated me to create this website</h2>
-            <p>I have always loved photography and wanted to share my favourite photos with others. This website is a way for me to showcase my work and inspire others to explore their own creativity through photography.</p>
+            <p>I have always loved photography and wanted to share my favourite photos with others. This website is a way for me to showcase my work and <span><strong>inspire others to explore their own creativity through photography</strong></span>.</p>
             </section>
         
         <section id="rome">
@@ -57,7 +59,7 @@
             <ol>
                 <li><img src="Santorini.jpg" alt="Santorini"></li>
                 <li><img src="Acropolis.jpg" alt="Acropolis"></li>
-                <li><img src="Mykonos.jpg" alt="Mykonos"></li>
+                <li><img src="Mykonos.jpg" alt="Mykonos" width="300px"></li>
             </ol>
             <p>
                 Greece is known for its stunning landscapes and historical sites, and I was fortunate enough to capture some of its beauty in my photos.
@@ -66,8 +68,28 @@
         <section id="conclusion">
                 <h2>Conclusion</h2>
                 <p>
-                    I hope you enjoyed viewing my favourite photos and that they inspire you to explore your own creativity through photography. Each photo holds a special memory for me, and I am grateful to have the opportunity to share them with others.
+                    I hope you enjoyed viewing my <span><em>favourite photos</em></span> and that they inspire you to explore your own creativity through photography. Each photo holds a special memory for me, and I am grateful to have the opportunity to share them with others.
                 </p>
+        </section>
+        <section id="contact">
+            <br>
+            <h2>Contact Me</h2>
+        
+            <form>
+                <br>
+        
+                <label for="Full-name">Name:</label><br>
+                <input type="text" id="Full-name" name="Full-name"><br><br>
+        
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+        
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea>
+        
+            </form>
         </section>
     </div>
     </main>
