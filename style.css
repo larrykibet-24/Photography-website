@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: darkgray;
 }
-header{
+header  {
     background-color: black;
     color: white;
     padding: 20px;
@@ -12,10 +12,18 @@ header{
     text-align: center;
 }
 header a{
-    color: inherit;
     text-decoration: none;
-
+    color: inherit;
 }
+
+#nav a {
+    color: turquoise;
+    text-decoration: none;
+    margin: 0 15px;
+    
+}
+
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -31,8 +39,4 @@ header a{
     text-align: center;
     padding: 10px;
 
-}
-.navigation {
-    gap : 20px;
-    color: turquoise;
 }
