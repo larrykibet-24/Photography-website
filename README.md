@@ -1,6 +1,6 @@
 Photography website fit for my Portfolio
 
-Name
+Name:
 Larry Kibet
 
 Description
